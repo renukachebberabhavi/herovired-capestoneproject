@@ -1,0 +1,35 @@
+.homepg{
+    background-color: white; 
+   display:flex;
+   height:100%;
+   width:100%;
+   
+   flex-direction: column;
+   align-content: center;
+
+}
+.homepg_header{
+   background-color: blue; 
+   position: absolute;
+/* width: 1728px;
+height: 76px;  */
+width:100%;
+height:10%;
+left: 0px;
+top: 0px;
+
+/* background: pink; */
+}
+
+.homepg_container{
+   height:80%;
+   width:50%;
+   /* left:650px;
+   top: 650px; */
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   
+}

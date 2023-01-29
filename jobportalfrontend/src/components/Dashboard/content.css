@@ -1,0 +1,50 @@
+.container {
+    height: 40%;
+    width: 100%;
+    background-color: #e7e7e7;
+    padding: 10px;
+    display: flex;
+    /* flex wrap was done to wrapp the children so that 
+    they dont get compressed due to the dimension of parent */
+    flex-wrap: wrap;
+    /* overflow -y defines how you want to handle the overflow vertically */
+    background-color: pink;
+    
+    flex-direction: column;
+    overflow-y: auto;
+    
+}
+
+.card {
+    margin: 8px;
+    height: 45%;
+    width: 15%;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    -moz-box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    box-shadow: 10px 10px 5px -4px rgba(204, 196, 204, 1);
+    cursor: pointer;
+}
+
+.image-card {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card>img {
+    height: 95%;
+    width: 95%;
+}
+
+.card-content {
+    height: 40%;
+    width: 100%;
+    padding: 2px;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

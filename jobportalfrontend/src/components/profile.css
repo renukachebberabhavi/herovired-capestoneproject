@@ -1,0 +1,50 @@
+.profilepg{
+    background-color: white; 
+   display:flex;
+   /* height:100%;
+   width:100%; */
+   
+   flex-direction: column;
+   align-content: centre;
+
+}
+.profilepg_header{
+   background-color: blue; 
+   /* position: absolute; */
+/* width: 1728px;
+height: 76px;  */
+width:100%;
+height:10%;
+left: 0px;
+top: 0px;
+
+/* background: pink; */
+}
+
+.profilepg_container{
+   height:90%;
+   width:100%;
+   top:500px;
+   /* left:650px;
+   top: 650px; */
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: left;
+   /* justify-content: center; */
+   justify-content: espace-betwen;
+
+   
+}
+
+.profilepg_details{
+      
+   background-color: rgb(243, 243, 233);
+  
+   width: 100%;
+   height: 90%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+}

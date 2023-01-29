@@ -1,0 +1,49 @@
+.createacpage{
+    background-color: white; 
+   display:flex;
+   height:100%;
+   width:100%;
+   
+   flex-direction: column;
+   align-content: center;
+
+}
+.createaccountheader{
+   background-color: blue; 
+   position: absolute;
+/* width: 1728px;
+height: 76px;  */
+width:100%;
+height:10%;
+left: 0px;
+top: 0px;
+
+/* background: pink; */
+}
+
+.createaccontainer{
+   height:90%;
+   width:60%;
+   
+   /* left:650px;
+   top: 650px; */
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.createaclogin{
+      
+   background-color: rgb(243, 243, 233);
+  
+   width: 75%;
+   height: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
